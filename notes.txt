@@ -1,0 +1,25 @@
+npx create-react-app 01basics
+ls
+npm run start (scripts me jo hai wo aayega)
+npm run build
+
+bundlers- vite
+npm create vite@latest
+npm run dev
+
+react corelibrary
+REACT DOM-implementation on web
+react NATIVE -implementation on mobile apps
+
+
+//-------in vite
+file name be .jsx not .jsx
+capital letter oc <Chai>
+single elements in app.jsx  => write in fragments
+<>
+</>
+
+//-------convention for both vite and react
+function/components name should start with capitalized word 
+make sure file name also begins with capitalized word
+some libraries(vite,parcel) force if it return html then file name should be.jsx
