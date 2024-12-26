@@ -23,3 +23,37 @@ single elements in app.jsx  => write in fragments
 function/components name should start with capitalized word 
 make sure file name also begins with capitalized word
 some libraries(vite,parcel) force if it return html then file name should be.jsx
+
+react fibre
+||------------------------03tailwindprops-------------------
+//--------in tailwindcss
+add closing tag on img elements
+pick elements from -tailwind css 
+                -DevUI.io
+//kyu na me ek naya hi card bana du cards.jsk karke aur fir  use usseske work ke hisab se use karu
+
+props make component reusable   
+we have made cards.jsx shift the card component to ./component/cards  and use it in app,js in form <cards/> bcz it is an html element
+defie props in cards.jsx in function parameter and value in app.jsx 
+<cards username="vinay" ,myarr=[1,2,3],myobj={name:vinay,age:15}  />
+we can define username but myarr and myobj iss trah se pass nahi hoga
+so arrays aur objects ko first ek variale me defie karo fir curly braces me use karo
+let myarr = [1,2,3]
+let myobj = {
+    name:vinay,
+    ag:15<cards username="vinay" ,somearr={myarr},someobj = {myobj} />
+}
+//-------incards.jsx
+function  cards(props){
+    console.log(props.username)
+}
+method-2
+function cards({username}){
+    console.log({username})
+}
+//for defining default value
+function cards({username="chaiaurcode"}){
+    console.log({username})
+}
+//convert each class to className inside cards.jsx
+
