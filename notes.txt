@@ -57,3 +57,19 @@ function cards({username="chaiaurcode"}){
 }
 //convert each class to className inside cards.jsx
 
+/----------04bg changer
+onClick->
+onclick ko function chaiye ,function se jo return aa raha hai wo nahi chaiye
+onClick{setColor("green") }       //ye return value de raha hai,we want function
+onClick={()=> setColor("red")}
+
+refresh karne par olive kyu aa raha hai
+
+/------------------passwordgenerator
+define all hooks -useState
+we are using another hook useCallback
+const passwordgenerator =useCallback(functin,[dependencies])
+if any change in dependencies useCallback usse function me change kar dega
+useEffect hook
+useEffect(callback,[dependencies])
+useRef hook
