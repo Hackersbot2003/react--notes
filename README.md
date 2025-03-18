@@ -1,2 +1,2 @@
-# chai-aur-react
+# react notes
 react notes
